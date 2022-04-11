@@ -12,7 +12,7 @@
 
 ### Пример работы
 
-![Пример](https://github.com/etokosmo/bitlinks/blob/main/github/bitly_example.gif)
+![Пример](https://github.com/etokosmo/django-orm-watching-storage/blob/main/github/Store.gif)
 
 ## Конфигурации
 
