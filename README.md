@@ -22,7 +22,19 @@
 ## Запуск
 
 - Скачайте код
-- Установите библиотеки `pip install -r requirements.txt`
+- Установите библиотеки командой
+```bash
+pip install -r requirements.txt
+```
 - Запишите переменные окружения в файле `.env`
-- Запустите сайт командой `python manage.py runserver 0.0.0.0:8000`
+```bash
+SECRET_KEY=... #секретный ключ к защите подписанных данных
+DEBUG=... #True/False режим дебага
+DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME #путь к базе данных
+ALLOWED_HOSTS="...,..." #список определенных имен доменов
+```
+- Запустите сайт командой 
+```bash
+python manage.py runserver 0.0.0.0:8000
+```
 - Перейдите на сайт по адресу http://127.0.0.1:8000

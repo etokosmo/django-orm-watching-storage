@@ -6,6 +6,7 @@ from django.utils import timezone
 SECONDS_IN_MINUTE = 60
 SECONDS_IN_HOUR = 3600
 
+
 class Passcard(models.Model):
     is_active = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now=True)
